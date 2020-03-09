@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'appgithubfirst'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_431102d1e69242179d3a19f07fb783bb }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4096741c72d94d27b1d69d4b3ea77ede }}
         package: '${{ github.workspace }}/target/*.jar'
