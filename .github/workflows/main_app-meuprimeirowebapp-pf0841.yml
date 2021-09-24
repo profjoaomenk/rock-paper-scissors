@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'app-meuprimeirowebapp-pf0841'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f3e8095a863c49b591b14630b3f282df }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f8151f2c438a445e87a420bb9cadaeae }}
         package: '*.war'
