@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'game-pf0841'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8E87ECAD21DA4064AE5E67D24EE4996D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D63D947A41CF4065A945820CD79C6789 }}
           package: '*.war'
